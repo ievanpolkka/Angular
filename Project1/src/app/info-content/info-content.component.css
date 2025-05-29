@@ -1,0 +1,7 @@
+.text { display: flex; flex-direction: row; flex-wrap: nowrap; color:white;}
+.UpperLetter {font-size: 3em; font-weight: 900;}
+
+.list li {
+    color: white;
+}
+

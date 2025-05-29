@@ -1,0 +1,47 @@
+.heading .firstA { color: green; }
+.heading .N { color: blueviolet; }
+.heading .G { color: blue; }
+.heading .U { color: crimson; }
+.heading .L { color: darkgoldenrod; }
+.heading .secondA { color: deeppink; }
+.heading .R { color: darkslateblue; }
+.heading {display: flex; flex-wrap: nowrap;}
+
+.header {
+    box-shadow: 0px 3px 4px black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; /* чтобы занять всю ширину */
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; /* заголовок слева, кнопки справа */
+    align-items: center; /* вертикальное выравнивание */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-image: url('https://t4.ftcdn.net/jpg/03/68/64/13/360_F_368641364_zdF9y5JnDUb89cQ54U7AES7f2AVH4sou.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center; /* исправлено */
+    gap: 10px; /* расстояние между кнопками */
+}
+
+.home a, .info a, .contact a {
+    background-color: rgba(241, 128, 128, 0.151);
+    color: orange;
+    border: 2px solid darkorange;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    flex-shrink: 1;
+}
