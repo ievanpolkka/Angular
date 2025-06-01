@@ -9,13 +9,11 @@
   margin-right: 10px;
 }
 
-#youtubelogo {
+#sololearnlogo {
   width: 20vw;
   height: auto;
-  min-width: 40px;
-  min-height: 40px;
-  max-width: 160px;
-  max-height: 160px;
+  max-width: 200px;
+  max-height: 200px;
   margin-left: 10px;
 }
 
